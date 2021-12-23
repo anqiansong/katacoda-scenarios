@@ -1,12 +1,12 @@
 {
-  "title": "go-zero/quick-start/microservice",
+  "title": "microservice",
   "description": "microservice example",
   "difficulty": "easy",
   "time": "10 minutes",
   "details": {
     "steps": [
       {
-        "text": "step1_en.md"
+        "text": "step1.md"
       }
     ]
   },
