@@ -50,6 +50,6 @@ resp=&types.Response{
 `go run greet.go`{{execute}}
 
 ## 验证结果
-`新建一个终端`{{execute}}
+`新建一个终端`{{execute T2}}
 
 访问接口 `curl -i -X GET http://localhost:8888/from/you`{{execute}}
