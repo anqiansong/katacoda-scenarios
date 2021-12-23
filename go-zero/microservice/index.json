@@ -11,8 +11,7 @@
     ]
   },
   "environment": {
-    "uilayout": "terminal",
-    "code": "setup.sh"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "golang:1.14"
