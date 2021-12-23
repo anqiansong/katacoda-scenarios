@@ -1,0 +1,19 @@
+{
+  "title": "go-zero/quick-start/monolithic-service",
+  "description": "monolithic-service example",
+  "difficulty": "easy",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "text": "step1_en.md"
+      }
+    ]
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "golang:1.14"
+  }
+}

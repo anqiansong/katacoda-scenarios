@@ -1,8 +1,8 @@
 {
-  "title": "go-zero/quick-start/prepare",
-  "description": "prepare for go-zero",
+  "title": "go-zero/quick-start/microservice",
+  "description": "microservice example",
   "difficulty": "easy",
-  "time": "5 minutes",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
