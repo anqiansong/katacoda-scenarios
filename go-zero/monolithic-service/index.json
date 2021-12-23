@@ -14,7 +14,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/go-zero-demo"
   },
   "backend": {
     "imageid": "golang:1.14"
