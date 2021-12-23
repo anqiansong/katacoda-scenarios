@@ -26,8 +26,22 @@ mkdir -p $WORK_DIR && cd $WORK_DIR
 
 `goctl api new greet`{{execute}}
 
-2.查看 greet 目录结构
+2. go mod tidy
+
+`go mod tidy`{{execute}}
+
+3.查看 greet 目录结构
 
 ```
 cd $WORK_DIR/greet && tree
 ```{{execute}}
+
+## 修改代码逻辑
+
+复制如下代码至 `$WORK_DIR/greet/internal/logic/greetlogic.go`{{open}} 的第 28 行
+
+```
+resp=&types.Response{
+    Message: "Hello go-zero",
+}
+```{{copy}}
