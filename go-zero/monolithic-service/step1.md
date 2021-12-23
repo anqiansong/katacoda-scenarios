@@ -29,8 +29,5 @@ mkdir -p $WORK_DIR && cd $WORK_DIR
 2.查看 greet 目录结构
 
 ```
-cd $WORK_DIR/greet
-if [ -x $(which tree) ];then
-tree
-fi
+cd $WORK_DIR/greet && tree
 ```{{execute}}
