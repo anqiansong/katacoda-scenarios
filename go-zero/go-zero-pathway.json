@@ -1,0 +1,16 @@
+{
+  "title": "go-zero Example",
+  "description": "Example of go-zero!",
+  "courses": [
+    {
+      "course_id": "monolithic-service",
+      "title": "quick start|monolithic-service",
+      "description": "monolithic-service quick start of go-zero!"
+    },
+    {
+      "course_id": "microservice",
+      "title": "quick start|microservice",
+      "description": "microservice quick start of go-zero!"
+    }
+  ]
+}
