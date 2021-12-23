@@ -47,8 +47,12 @@ resp=&types.Response{
 ```{{copy}}
 
 ## 运行示例
-`go run greet.go`{{execute}}
+`go run $WORK_DIR/greet/greet.go`{{execute}}
 
 ## 验证结果
 
-访问接口 `curl -i -X GET http://localhost:8888/from/you`{{execute T2}}
+在 `新建终端`{{execute T2}} 通过如下方式访问
+
+```
+curl -i -X GET http://localhost:8888/from/you
+```{{execute}}
