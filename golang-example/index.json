@@ -6,22 +6,22 @@
   "details": {
     "steps": [
       {
-        "title": "Hello World",
-        "text": "step1.md"
+        "text": "step1.md",
+        "code": "setup.sh"
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "code": "entry.sh"
+      "text": "intro.md"
     }
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "demo",
+    "uieditorpath": "/root/example",
     "uisettings": "golang"
-
   },
-  "files": ["main.go"],
+  "files": [
+    "main.go"
+  ],
   "backend": {
     "imageid": "golang:1.14"
   }
