@@ -16,7 +16,7 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "demo",
+    "uieditorpath": "/root/demo",
     "uisettings": "golang"
 
   },
