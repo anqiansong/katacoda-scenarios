@@ -38,7 +38,7 @@ cd $WORK_DIR/greet && tree
 
 ## 修改代码逻辑
 
-复制如下代码至 `$WORK_DIR/greet/internal/logic/greetlogic.go`{{open}} 的第 28 行
+复制如下代码至 `internal/logic/greetlogic.go`{{open}} 的第 28 行
 
 ```
 resp=&types.Response{
@@ -50,6 +50,5 @@ resp=&types.Response{
 `go run greet.go`{{execute}}
 
 ## 验证结果
-`新建一个终端`{{execute T2}}
 
-访问接口 `curl -i -X GET http://localhost:8888/from/you`{{execute}}
+访问接口 `curl -i -X GET http://localhost:8888/from/you`{{execute T2}}
