@@ -1,4 +1,4 @@
-# Prepare
+# 单体服务交互示例
 
 ## 准备工作
 1.安装 goctl
@@ -55,4 +55,4 @@ resp=&types.Response{
 
 ```
 curl -i -X GET http://localhost:8888/from/you
-```{{execute}}
+```{{execute T2}}
