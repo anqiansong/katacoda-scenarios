@@ -25,7 +25,11 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/src/demo"
+
+  },
   "backend": {
     "imageid": "golang:1.14"
   }
