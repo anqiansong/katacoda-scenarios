@@ -1,5 +1,4 @@
 # Prepare
-中文 | [English](step1_en.md)
 
 ## 准备工作
 1. 安装 goctl ` GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u github.com/tal-tech/go-zero/tools/goctl`{{execute}}

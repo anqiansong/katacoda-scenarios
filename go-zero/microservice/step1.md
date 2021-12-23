@@ -1,5 +1,4 @@
 # Prepare
-中文 | [English](step1_en.md)
 
 ## 准备工作
 ### 1. 安装 goctl 
