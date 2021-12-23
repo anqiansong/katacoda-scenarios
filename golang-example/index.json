@@ -2,34 +2,24 @@
   "title": "golang-example",
   "description": "learn katacoda",
   "difficulty": "Beginner",
-  "time": "60 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "index",
         "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
       }
     ],
     "intro": {
       "text": "intro.md"
-    },
-    "finish": {
-      "text": "finish.md"
     }
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/src/demo"
+    "uieditorpath": "demo"
 
   },
+  "files": ["main.go"],
   "backend": {
     "imageid": "golang:1.14"
   }
