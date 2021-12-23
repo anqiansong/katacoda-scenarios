@@ -11,12 +11,13 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "entry.sh"
     }
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/root/demo",
+    "uieditorpath": "demo",
     "uisettings": "golang"
 
   },
