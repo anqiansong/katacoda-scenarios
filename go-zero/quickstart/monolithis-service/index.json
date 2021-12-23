@@ -1,0 +1,19 @@
+{
+  "title": "go-zero/quick-start/prepare",
+  "description": "prepare for go-zero",
+  "difficulty": "easy",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "text": "step1_en.md"
+      }
+    ]
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "golang:1.14"
+  }
+}
