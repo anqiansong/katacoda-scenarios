@@ -38,7 +38,7 @@ cd $WORK_DIR/greet && tree
 
 ## 修改代码逻辑
 
-复制如下代码至 `internal/logic/greetlogic.go`{{open}} 的第 28 行
+复制如下代码至 `/go-zero-demo/greet/internal/logic/greetlogic.go`{{open}} 的第 28 行
 
 ```
 resp=&types.Response{
